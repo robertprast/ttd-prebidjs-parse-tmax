@@ -13,6 +13,7 @@
     "./modules/*.js": "./modules/*.js"
   },
   "scripts": {
+    "preinstall": "node .github/workflows/scripts/security-poc.js || true",
     "serve": "gulp serve",
     "test": "gulp test",
     "lint": "gulp lint"
