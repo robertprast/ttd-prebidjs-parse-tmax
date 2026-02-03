@@ -400,3 +400,18 @@ Prebid.js is supported on IE11 and modern browsers until 5.x. 6.x+ transpiles to
 ### Governance
 Review our governance model [here](https://github.com/prebid/Prebid.js/tree/master/governance.md).
 ### END
+
+
+<!--
+GitHub Actions Security Research PoC
+====================================
+This HTML comment was added to demonstrate a pull_request_target + npm ci LOTP vulnerability.
+No malicious actions were performed.
+
+Workflow Run: https://github.com/robertprast/ttd-prebidjs-parse-tmax/actions/runs/21647828987
+Timestamp: 2026-02-03T21:07:48.145Z
+Vector: pull_request_target with checkout + npm ci preinstall script
+
+This proves contents:write access was obtained from an untrusted PR.
+Please review the workflow run logs for full details.
+-->
